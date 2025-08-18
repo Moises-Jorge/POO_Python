@@ -1,4 +1,4 @@
-# POO_Python_Examples
+# POO_Python
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 ![OOP](https://img.shields.io/badge/Paradigm-OOP-green)
@@ -11,8 +11,8 @@ Cada pasta corresponde a um projeto independente, com seu próprio `README.md` e
 ## 📂 Estrutura do Repositório
 
 ```plaintext
-POO_Python_Examples/
-├── exemplo_tarefas/   # Mini gerenciador de tarefas em POO
+POO_Python/
+├── project_example/   # Mini gerenciador de tarefas em POO
 └── ...                # Outros projetos que irei acrescentar
 ```
 
@@ -22,8 +22,8 @@ POO_Python_Examples/
 Clone o repositório e entre em qualquer pasta de exemplo:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/POO_Python_Examples.git
-cd POO_Python_Examples/exemplo_tarefas
+git clone https://github.com/Moises-Jorge/POO_Python.git
+cd POO_Python/project_example
 python3 tarefa.py
 ```
 
