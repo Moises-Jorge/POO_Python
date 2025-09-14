@@ -27,6 +27,17 @@ class   Carro(Veiculo):
     def __str__(self) -> str:
         full_str = super().__str__() + f' com {self.__portas} portas'
         return (full_str)
+    
+    
+class   Moto(Veiculo):
+    def __init__(self, marca:str = '', modelo:str = '', cilindradas:int = 0) -> None:
+        super().__init__(marca, modelo)
+        self.__cilindradas = cilindradas
+        
+    
+    def exibir_info(self) -> None:
+        super().exibir_info()
+        print(f'Cilindragem: {self.__cilindradas} cc')
         
         
 # Testando a classe
