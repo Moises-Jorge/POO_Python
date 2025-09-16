@@ -21,7 +21,7 @@ class   Time:
     def __init__(self, nome_time:str = '', nome_estadio:str = '') -> None:
         self.nome_time = nome_time.title()
         self.estadio = Estadio(nome_estadio)
-        self.jogadores = Jogador = []
+        self.jogadores = []
     
     
     def add_jogador(self, jogador:Jogador) -> None:
